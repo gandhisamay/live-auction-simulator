@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1{
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+h1+p{
+    margin: 2rem 0;
+}
+
+.album{
+    background-color: rgb(155, 121, 79);
+    background: url("../assets/back.jpg")  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    width: 100%;
+    min-height: 60%;
+}
+/* footer{
+    background-color: rgb(52, 73, 78);
+    height: 1rem;
+    padding: 2rem;
+}
+footer a{
+    font-size: larger;
+    color: aliceblue;
+}
+
+footer a:hover{
+    font-size: larger;
+    color: aliceblue;
+} */
+.signOutBtn, .listBtn{
+    margin: 1rem 1rem;
+    background-color: rgba(221, 215, 228, 0.658);
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+main>section{
+    background-image: url("../assets/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    border: 0.5rem solid purple;
+    max-height: 35%;
+}
+/* main>.container{
+    width: 200%;
+} */
+input{
+    background-color: aliceblue; 
+    color: rgb(12, 13, 14);
+}
+
+.card-body{
+    background-color: rgb(135, 172, 204);
+}
+
+.bodyBtn{
+    background-color: rgb(18, 41, 61);
+    color: aliceblue;
+}
+.bodyBtn:hover{
+    background-color:rgb(44, 133, 145) ;
+    color: orange;
+}
+
+#account{
+    display: flex;
+    justify-content: end;
+}
+#accountLink img{
+    width: 2rem;
+    border: 0.1rem solid black;
+}
+
+.display-4, .card-title{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.card-text{
+    font-size: 1rem;
+    margin: 0.75rem 0;
+}
+.lead{
+    font-size: 1.35rem;
+    margin: 0.75rem 0;
+}
+
+li.list-group-item{
+    background-color: rgb(135, 172, 204);
+}
+
+.card{
+    margin: 1em;
+}
+
+.card-img-top{
+    max-height: 12rem;
+}
+
+.modal-body p{
+    margin: 1rem 0;
+}

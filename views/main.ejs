@@ -1,0 +1,543 @@
+<html lang="en" data-darkreader-mode="dynamic" data-darkreader-scheme="dark">
+  <head>
+    <style class="darkreader darkreader--fallback" media="screen"></style>
+    <style class="darkreader darkreader--text" media="screen"></style>
+    <style class="darkreader darkreader--invert" media="screen">
+      .jfk-bubble.gtx-bubble,
+        .captcheck_answer_label>input+img,
+        span#closed_text>img[src^="https://www.gstatic.com/images/branding/googlelogo"],
+        span[data-href^="https://www.hcaptcha.com/"]>#icon,
+        #bit-notification-bar-iframe,
+        ::-webkit-calendar-picker-indicator {
+        filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+      }
+    </style>
+    <style class="darkreader darkreader--inline" media="screen">
+      [data-darkreader-inline-bgcolor] {
+        background-color: var(--darkreader-inline-bgcolor) !important;
+      }
+
+      [data-darkreader-inline-bgimage] {
+        background-image: var(--darkreader-inline-bgimage) !important;
+      }
+
+      [data-darkreader-inline-border] {
+        border-color: var(--darkreader-inline-border) !important;
+      }
+
+      [data-darkreader-inline-border-bottom] {
+        border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+      }
+
+      [data-darkreader-inline-border-left] {
+        border-left-color: var(--darkreader-inline-border-left) !important;
+      }
+
+      [data-darkreader-inline-border-right] {
+        border-right-color: var(--darkreader-inline-border-right) !important;
+      }
+
+      [data-darkreader-inline-border-top] {
+        border-top-color: var(--darkreader-inline-border-top) !important;
+      }
+
+      [data-darkreader-inline-boxshadow] {
+        box-shadow: var(--darkreader-inline-boxshadow) !important;
+      }
+
+      [data-darkreader-inline-color] {
+        color: var(--darkreader-inline-color) !important;
+      }
+
+      [data-darkreader-inline-fill] {
+        fill: var(--darkreader-inline-fill) !important;
+      }
+
+      [data-darkreader-inline-stroke] {
+        stroke: var(--darkreader-inline-stroke) !important;
+      }
+
+      [data-darkreader-inline-outline] {
+        outline-color: var(--darkreader-inline-outline) !important;
+      }
+
+      [data-darkreader-inline-stopcolor] {
+        stop-color: var(--darkreader-inline-stopcolor) !important;
+      }
+    </style>
+    <style class="darkreader darkreader--variables" media="screen">
+      :root {
+        --darkreader-neutral-background: #131516;
+        --darkreader-neutral-text: #d8d4cf;
+        --darkreader-selection-background: #004daa;
+        --darkreader-selection-text: #e8e6e3;
+      }
+    </style>
+    <style class="darkreader darkreader--root-vars" media="screen"></style>
+    <style class="darkreader darkreader--user-agent" media="screen">
+      html {
+        background-color: #181a1b !important;
+      }
+
+      html {
+        color-scheme: dark !important;
+      }
+
+      html,
+      body {
+        background-color: #181a1b;
+      }
+
+      html,
+      body {
+        border-color: #736b5e;
+        color: #e8e6e3;
+      }
+
+      a {
+        color: #3391ff;
+      }
+
+      table {
+        border-color: #545b5e;
+      }
+
+      ::placeholder {
+        color: #b2aba1;
+      }
+
+      input:-webkit-autofill,
+      textarea:-webkit-autofill,
+      select:-webkit-autofill {
+        background-color: #404400 !important;
+        color: #e8e6e3 !important;
+      }
+
+      ::-webkit-scrollbar {
+        background-color: #202324;
+        color: #aba499;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #454a4d;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #575e62;
+      }
+
+      ::-webkit-scrollbar-thumb:active {
+        background-color: #484e51;
+      }
+
+      ::-webkit-scrollbar-corner {
+        background-color: #181a1b;
+      }
+
+      ::selection {
+        background-color: #004daa !important;
+        color: #e8e6e3 !important;
+      }
+
+      ::-moz-selection {
+        background-color: #004daa !important;
+        color: #e8e6e3 !important;
+      }
+    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <title>Auctinator - Main</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/@4.6.1/examples/album/"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      href="/docs/@4.6.1/assets/img/favicons/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link
+      rel="icon"
+      href="/docs/@4.6.1/assets/img/favicons/favicon-32x32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="/docs/@4.6.1/assets/img/favicons/favicon-16x16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link
+      rel="manifest"
+      href="/docs/@4.6.1/assets/img/favicons/manifest.json"
+    />
+    <link
+      rel="mask-icon"
+      href="/docs/@4.6.1/assets/img/favicons/safari-pinned-tab.svg"
+      color="#7952b3"
+    />
+    <link rel="icon" href="/docs/@4.6.1/assets/img/favicons/favicon.ico" />
+    <meta name="theme-color" content="#5d3d8b" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <style class="darkreader darkreader--sync" media="screen"></style>
+
+    <meta name="darkreader" content="a8578801de844d5f8a8d3eba59f74512" />
+    <style class="darkreader darkreader--override" media="screen">
+      .vimvixen-hint {
+        background-color: #7b5300 !important;
+        border-color: #d8b013 !important;
+        color: #f3e8c8 !important;
+      }
+
+      ::placeholder {
+        opacity: 0.5 !important;
+      }
+
+      #edge-translate-panel-body,
+      .MuiTypography-body1 {
+        color: var(--darkreader-neutral-text) !important;
+      }
+
+      gr-main-header {
+        background-color: #0f3a48 !important;
+      }
+
+      embed[type="application/pdf"][src="about:blank"] {
+        filter: invert(100%) contrast(90%);
+      }
+    </style>
+    <link rel="stylesheet" href="mainstyle.css" />
+  </head>
+
+  <body
+    class="vsc-initialized"
+    data-new-gr-c-s-check-loaded="14.1055.0"
+    data-gr-ext-installed=""
+  >
+    <header></header>
+
+    <main>
+      <section class="pb-5 text-center">
+        <div class="row pb-lg-5 pt-lg-3">
+          <div class="col">
+            <div id="account">
+              <a href="http://localhost:8080/profile" id="accountLink" class="mx-2"
+                ><img
+                  src="../../assets/profile.jpg"
+                  alt="profile pic"
+                  class="rounded-circle"
+              /></a>
+            </div>
+            <h1 class="fw-light">Auctinator</h1>
+            <p class="lead text-lg">
+              Buy and Sell with assurance. 100% verified users!
+            </p>
+            <p>
+              <button
+                class="btn btn-outline-info my-2 listBtn"
+                data-toggle="modal"
+                data-target="#list"
+              >
+                List an Item
+              </button>
+              <a
+                href="http://localhost:8080/login"
+                class="btn btn-outline-danger my-2 signOutBtn"
+                >Sign Out</a
+              >
+            </p>
+
+            <div
+              class="modal fade"
+              id="list"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-center" id="listTitle">
+                      Add an Item
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="http://localhost:8080/items/new" method="post">
+                      <div class="form-group">
+                        <p>
+                          <label for="name">Name:</label>
+                          <input type="text" name="name" id="name" />
+                        </p>
+
+                        <p>
+                          <label for="desc">Desc:</label>
+                          <input type="text" name="description" id="desc" />
+                        </p>
+
+                        <p>
+                          <label for="sp">Starting Price:</label>
+                          <input type="number" name="basePrice" id="sp" />
+                        </p>
+
+                        <p>
+                          <label for="update">Buy Now Price:</label>
+                          <input type="number" name="buyNowPrice" id="sp" />
+                        </p>
+
+                        <p>
+                          <label for="pic">Add an image:</label>
+                          <input
+                            type="url"
+                            placeholder="Add the url"
+                            name="imageUrl"
+                            id="pic"
+                          />
+                        </p>
+
+                        <p>
+                          <label for="endDate">End Date:</label>
+                          <input type="datetime-local" name="endDate" id="endDate" />
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Cancel
+                        </button>
+                        <button type="submit" class="btn btn-primary">Add</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="album py-5 bg">
+        <div class="container">
+          <div class="row justify-content-around">
+            <!-- <div class="col mb-5">
+                        <div class="card shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c" data-darkreader-inline-fill=""
+                                    style="--darkreader-inline-fill:#43484b;"></rect><text x="50%" y="50%"
+                                    fill="#eceeef" dy=".3em" data-darkreader-inline-fill=""
+                                    style="--darkreader-inline-fill:#dddad6;">Thumbnail</text>
+                            </svg>
+
+                            <div class="card-body">
+                                <p class="display-4">Item</p>
+                                <p class="card-text">Desc</p>
+                                <p class="lead">Current Bid: <br></br> Buy Now Price:  </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-md btn-outline-secondary bodyBtn">Buy Now</button>
+                                        <button type="button" class="btn btn-md btn-outline-secondary bodyBtn" data-toggle="modal" data-target="#exampleModal1">Bid</button>
+
+                                        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title text-center" id="exampleModalLabel1">Bid</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form action="">
+                                                            <div class="form-group">
+                                                                <label for="set_bid">Set Bid:</label>
+                                                                <input type="number" name="set_bid1" id="set_bid1">
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                                    <button type="button" class="btn btn-primary">Bid</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+            <% for (let item of items){ %>
+              <% console.log(item.item_id) %> 
+               
+            <div class="card" style="width: 25%">
+              
+                <img
+                src="<%= item.image_url %>"
+                class="card-img-top"
+                alt="Item image"
+                />
+              
+              <div class="card-body">
+                <h5 class="card-title"><%= item.name %></h5>
+                <p class="card-text">
+                    <%= item.description %>
+                </p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <% if(!item.offer_value) {%>
+                  <li class="list-group-item">Current Bid: NA</li>
+                  <% } else {%>
+                    <li class="list-group-item">Current Bid: <%= item.offer_value %> </li>
+                  <% } %>   
+                <li class="list-group-item">Buy Now Price: <%= item.buy_now_price %></li>
+              </ul>
+              <div class="btn-group">
+                <form action="<%=`http://localhost:8080/buyNow/${item.item_id}`%>" method="post">
+                <button
+                  type="submit"
+                  class="btn btn-md btn-outline-secondary bodyBtn"
+                >
+                  Buy Now
+                </button>
+                </form>
+                <button
+                  type="submit"
+                  class="btn btn-md btn-outline-secondary bodyBtn"
+                  data-toggle="modal"
+                  data-target="#exampleModal1"
+                >
+                  Bid
+                </button>
+              </div>
+              <div
+                class="modal fade"
+                id="exampleModal1"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5
+                        class="modal-title text-center"
+                        id="exampleModalLabel1"
+                      >
+                        Bid
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <% console.log(`Uski maa ka : ${item.item_id}`) %> 
+
+                      <form action="<%= `http://localhost:8080/offer/${2}` %>" method="post">
+                        <div class="form-group">
+                          <label for="set_bid">Set Bid:</label>
+                          <input type="number" name="offerValue" id="set_bid1" />
+                        </div>
+                        <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                      >
+                        Cancel
+                      </button>
+                      <button type="submit" class="btn btn-primary">Bid</button>
+                    </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <% } %>
+    </main>
+    <!-- 
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Back to top</a>
+            </p>
+        </div>
+    </footer> -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9I/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js" type="text/javascript"></script>
+  </body>
+  <grammarly-desktop-integration
+    data-grammarly-shadow-root="true"
+  ></grammarly-desktop-integration>
+</html>
